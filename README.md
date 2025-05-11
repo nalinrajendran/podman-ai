@@ -26,11 +26,7 @@ Here are some sample responses ;)
 ![Screenshot 2025-05-11 at 3 43 59 PM](https://github.com/user-attachments/assets/dd4ab821-5d9b-4b65-9e84-b0eb92372464)
 
 
-
-
-![Screenshot 2025-05-11 at 3 48 31 PM](https://github.com/user-attachments/assets/56a4f5f5-3663-449f-8ed9-b9d7b75ac9dd)
-
-
+![Screenshot 2025-05-11 at 3 47 15 PM](https://github.com/user-attachments/assets/90ece2fc-a9d6-4b0d-9383-1315de55db8d)
 
 
 
