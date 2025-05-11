@@ -19,6 +19,24 @@ This is just the beginning—up next is **MCP server integration**, which will b
 * Configuration is clean and YAML-based
 * Easy CLI access with the `podman-ai` alias
 
+
+
+Here are some sample responses ;)
+
+![Screenshot 2025-05-11 at 3 43 59 PM](https://github.com/user-attachments/assets/dd4ab821-5d9b-4b65-9e84-b0eb92372464)
+
+
+
+
+![Screenshot 2025-05-11 at 3 48 31 PM](https://github.com/user-attachments/assets/56a4f5f5-3663-449f-8ed9-b9d7b75ac9dd)
+
+
+
+
+
+
+
+
 ## 🚀 Quick Start
 
 1. **Clone the repo**:
@@ -86,5 +104,3 @@ Open to all kinds of contributions! Feel free to open issues or submit PRs on Gi
 Check the [setup guide](docs/SETUP.md) or open an issue on [GitHub](https://github.com/nalinrajendran/podman-agent/issues).
 
 ---
-
-Would you like a visual README badge or diagram for this project as well?
