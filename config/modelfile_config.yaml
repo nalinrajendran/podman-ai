@@ -1,0 +1,33 @@
+# Modelfile Configuration for podman-ai
+# This file defines settings for generating the Ollama Modelfile used by create_modelfile.sh.
+# Place this file in the same directory as create_modelfile.sh or specify its path.
+# Use YAML syntax and refer to comments for guidance.
+
+# Modelfile settings
+modelfile:
+  # Base model for the Modelfile
+  # Example: llama3.2 (default), mistral, or any model installed in Ollama
+  # Check available models with `ollama list`
+  base_model: "llama3.2"
+
+  # System prompt for the Podman AI model
+  # Defines how the model generates Podman commands
+  # Default prompt ensures only valid Podman commands are returned
+  system_prompt: |
+    You are a CLI assistant for Podman, a container management tool. Your task is to translate user requests into a single, valid Podman command. Follow these rules:
+
+    - Return ONLY the Podman command, starting with 'podman'.
+    - Do NOT include code (e.g., Python, bash), explanations, comments, or extra text.
+    - Do NOT wrap the command in backticks, quotes, or any formatting.
+    - If the request is ambiguous or unclear, return 'podman ps -a'.
+    - Ensure the command is executable and matches Podman CLI syntax.
+
+    Example: Request: stop the my-app container Response: podman stop my-app
+
+  # Model name to create in Ollama
+  # Default: podman-ai
+  model_name: "podman-ai"
+
+  # Optional: Temperature for model output (lower = more deterministic)
+  # Range: 0.0 to 1.0, default: 0.3
+  temperature: 0.2
