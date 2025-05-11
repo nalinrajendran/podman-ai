@@ -1,6 +1,3 @@
-Sure! Here's a more natural, human-friendly version of your project description, incorporating your goals and future plans:
-
----
 
 # Podman AI Assistant
 
